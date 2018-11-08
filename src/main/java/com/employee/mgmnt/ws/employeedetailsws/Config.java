@@ -37,4 +37,5 @@ public class Config extends WsConfigurerAdapter {
 	public XsdSchema employeeSchema() {
 		return new SimpleXsdSchema(new ClassPathResource("employee.xsd"));
 	}
+	
 }
